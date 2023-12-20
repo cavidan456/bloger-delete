@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 75%;
+  height: 50px;
+}
+nav .navbar-collapse {
+  justify-content: flex-end;
+  margin: auto;
+}
+
+main #sec-one {
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/img/header-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sec-one .sec-one-text {
+  width: 100%;
+  height: 100%;
+}
+main #sec-one .sec-one-text h2 {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 700;
+}
+main #categories {
+  padding: 100px;
+}
+main #categories .categories-head-text {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+main #categories .categories-item {
+  margin: 50px;
+}
+main #categories .categories-item img {
+  width: 100%;
+}
+main #categories .categories-item p {
+  margin: 10px;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+}
+main #categories .categories-item h4 {
+  font-weight: 700;
+}
+main #travel-sec {
+  width: 100%;
+  height: auto;
+}
+main #travel-sec .travel-head-text {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+main #travel-sec .travel-item-img {
+  position: relative;
+  margin: 20px;
+}
+main #travel-sec .travel-item-img .black-item {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+}
+main #travel-sec .btn-div {
+  width: 150px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+main #travel-sec .btn-div button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #7d9afe;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+main #travel-sec .btn-div button:hover {
+  background-color: #fff;
+  border: 1px solid #7d9afe;
+}
+main #fashion .fashion-head-text {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+main #fashion .fashion-head-text h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+main #fashion .fashion-item p {
+  margin-top: 10px;
+  width: fit-content;
+  color: #fff;
+  background-color: black;
+}
+main #fashion .btn-div {
+  width: 150px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+main #fashion .btn-div button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #7d9afe;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+main #fashion .btn-div button:hover {
+  background-color: #fff;
+  border: 1px solid #7d9afe;
+}
+main #bloger-team .bloger-team-head {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+main #bloger-team .bloger-team-text {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main #bloger-team .bloger-team-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main #bloger-team .bloger-team-img-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #bloger-team .hover-effect-1 {
+  display: none;
+}
+main #bloger-team .hover-effect-2 {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #232323;
+  color: #fff;
+}
+footer ul li {
+  list-style: none;
+}
+footer .form-box input {
+  width: 450px;
+}
+
+@media only screen and (max-width: 991px) {
+  main #categories .categories-head-text {
+    width: 75%;
+  }
+  main #travel-sec .travel-head-text {
+    width: 75%;
+  }
+  main #fashion .fashion-head-text {
+    width: 75%;
+  }
+  main #bloger-team .bloger-team-head {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main #categories .categories-head-text {
+    width: 95%;
+  }
+  main #travel-sec .travel-head-text {
+    width: 95%;
+  }
+  main #fashion .fashion-head-text {
+    width: 95%;
+  }
+  main #bloger-team .bloger-team-head {
+    width: 95%;
+  }
+}
